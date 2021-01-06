@@ -1,0 +1,1 @@
+xfc -b bindings.xml nomedoarquivo.xsd

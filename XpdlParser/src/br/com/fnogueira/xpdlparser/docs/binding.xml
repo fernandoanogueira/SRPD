@@ -1,0 +1,31 @@
+<jxb:bindings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+
+    <jxb:bindings schemaLocation="9999-bpmnxpdl_40a.xsd">
+        <jxb:bindings
+            node="//xsd:element[@name='TimeDate']">
+            <jxb:property name="TimeDate2" />
+        </jxb:bindings>
+        <jxb:bindings
+            node="//xsd:element[@name='TimeCycle']">
+            <jxb:property name="TimeCycle2" />
+        </jxb:bindings>
+        <jxb:bindings
+            node="//xsd:element[@name='LoopCondition']">
+            <jxb:property name="LoopCondition2" />
+        </jxb:bindings>
+        <jxb:bindings
+            node="//xsd:element[@name='MI_Condition']">
+            <jxb:property name="MI_Condition2" />
+        </jxb:bindings>
+        <jxb:bindings
+            node="//xsd:element[@name='ComplexMI_FlowCondition']">
+            <jxb:property name="ComplexMI_FlowCondition2" />
+        </jxb:bindings>
+      <jxb:bindings
+            node="//xsd:element[@name='Group']">
+            <jxb:property name="Group2" />
+        </jxb:bindings>        
+    </jxb:bindings>                        
+
+</jxb:bindings>
